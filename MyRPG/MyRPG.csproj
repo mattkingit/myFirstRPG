@@ -162,9 +162,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="config.xml" />
+    <Content Include="www\apad.png" />
     <Content Include="www\cordova.js" />
     <Content Include="www\css\game.css" />
     <Content Include="www\enchant.js" />
+    <Content Include="www\font0.png" />
+    <Content Include="www\icon0.png" />
     <Content Include="www\index.html" />
     <Content Include="www\img\logo.png" />
     <Content Include="Images\appbar.back.rest.png" />
@@ -173,6 +176,11 @@
     <Content Include="Images\appbar.next.rest.png" />
     <Content Include="Images\appbar.save.rest.png" />
     <Content Include="Images\appbar.stop.rest.png" />
+    <Content Include="www\items.png" />
+    <Content Include="www\js\game.js" />
+    <Content Include="www\js\map.js" />
+    <Content Include="www\pad.png" />
+    <Content Include="www\sprites.png" />
     <Content Include="www\ui.enchant.js" />
     <None Include="cordova\lib\build.js" />
     <None Include="cordova\lib\clean.js" />
@@ -213,9 +221,7 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="www\js\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
